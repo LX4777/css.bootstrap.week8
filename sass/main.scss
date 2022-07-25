@@ -4,7 +4,6 @@
   height: 300px;
   border: solid black;
   margin: 10px;
-  transition: 1s;
   background-size: contain;
   background-repeat: no-repeat;
   color: black;
@@ -15,7 +14,7 @@
     transform: rotateY(180deg);
     background-size: contain;
     background-repeat: no-repeat;
-    transition: 1s;
+    transition: 2s;
   }
 }
 
