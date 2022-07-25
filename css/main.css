@@ -1,0 +1,65 @@
+.card {
+  float: left;
+  width: 600px;
+  height: 300px;
+  border: solid black;
+  margin: 10px;
+  transition: 1s;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: black;
+}
+.card:hover {
+  transform-style: preserve-3d;
+  -webkit-animation: spin 1s linear;
+          animation: spin 1s linear;
+  transform: rotateY(180deg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.card1 {
+  background-image: url("/images/1-1.png");
+}
+.card1:hover {
+  background-image: url("/images/1-2.png");
+}
+
+.card2 {
+  background-image: url("/images/2-1.png");
+}
+.card2:hover {
+  background-image: url("/images/2-2.png");
+}
+
+.card3 {
+  background-image: url("/images/3-1.png");
+}
+.card3:hover {
+  background-image: url("/images/3-2.png");
+}
+
+@-webkit-keyframes spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(90deg);
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(90deg);
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}/*# sourceMappingURL=main.css.map */
